@@ -39,3 +39,5 @@ class Find_Kth(unittest.TestCase):
   def test_kth_symbol_n4_k6(self):
     self.assertEqual(kth_gram(4, 6), 0, "kth_symbol(4, 6) should return 0")
 
+if __name__ == '__main__':
+  unittest.main()
