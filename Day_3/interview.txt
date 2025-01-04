@@ -8,6 +8,7 @@ Question 2: Power Sum: Lets define a peculiar type of array in which each elemen
 
 [1,2,[7,[3,4],2]] = 1 + 2 +( 7+(3+4)^3+2)^2
 
-Time Complexity: O(2^n)
+Time Complexity: O(n)
+
 Space Complexity: O(d) 
 d = depth of recursion

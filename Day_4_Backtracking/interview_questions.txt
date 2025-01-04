@@ -1,0 +1,4 @@
+Question 1: Permutations: Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
+
+Question 2: Permutations 2: Given a collection of numbers, nums, that might contain duplicates, return all possible unique permutations in any order.
+
