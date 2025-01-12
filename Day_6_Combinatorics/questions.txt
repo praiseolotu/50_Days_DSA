@@ -1,4 +1,4 @@
-Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
+Question 1: Given two integers n and k, return all possible combinations of k numbers chosen from the range [1, n].
 
 You may return the answer in any order.
 
@@ -6,3 +6,11 @@ Time Complexity: O(k * nCk)
 where nCK = n! / k! * (n-k)!
 Space Complexity: O(k)
 There with be k total recursion depth.
+
+Question 2: Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.
+
+The same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.
+
+(the integers in the candidates array are all non negative )
+Time Complexity: O(N * T/m -1)
+Space Complexity: O(T/m)
