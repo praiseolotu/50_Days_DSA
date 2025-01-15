@@ -1,0 +1,23 @@
+Write a program to solve a Sudoku puzzle by filling the empty cells.
+
+A sudoku solution must satisfy all of the following rules:
+
+Each of the digits 1-9 must occur exactly once in each row.
+
+Each of the digits 1-9 must occur exactly once in each column.
+
+Each of the digits 1-9 must occur exactly once in each of the 9 3x3 sub-boxes of the grid.
+
+The '.' character indicates empty cells.
+
+Constraints:
+
+board.length == 9
+
+board[i].length == 9
+
+board[i][j] is a digit between 1 and 9 , inclusive or '.'.
+
+It is guaranteed that the input board has only one solution.
+
+Time and Space Complexity are both O(1), for the time  complexity their is a constant likely solution per empty cell. That is 9^nth empty space. If there are 2 empty space, that means 9^2 = 81 possible moves. 
