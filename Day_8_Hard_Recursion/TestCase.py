@@ -1,5 +1,5 @@
 import unittest
-from sodoku import sudokuSolver
+from sodoku import solveSudoku
 
 class TestSudokuSolver(unittest.TestCase):
     def test_partially_filled_board(self):
@@ -27,7 +27,7 @@ class TestSudokuSolver(unittest.TestCase):
             ["2", "8", "7", "4", "1", "9", "6", "3", "5"],
             ["3", "4", "5", "2", "8", "6", "1", "7", "9"]
         ]
-        sudokuSolver(board)
+        solveSudoku(board)
         self.assertEqual(board, expected_solution, f"Failed to find the unique solution. Expected: {expected_solution}, Got: {board}")
 
     
